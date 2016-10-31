@@ -15,6 +15,8 @@
 		816521801DC7BA7500CB0EC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8165217E1DC7BA7500CB0EC4 /* LaunchScreen.storyboard */; };
 		8165218B1DC7BA7500CB0EC4 /* homeBrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165218A1DC7BA7500CB0EC4 /* homeBrainTests.swift */; };
 		816521961DC7BA7500CB0EC4 /* homeBrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816521951DC7BA7500CB0EC4 /* homeBrainUITests.swift */; };
+		816521A91DC7C09E00CB0EC4 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816521A81DC7C09E00CB0EC4 /* utils.swift */; };
+		816521AA1DC7C19D00CB0EC4 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816521A81DC7C09E00CB0EC4 /* utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		816521911DC7BA7500CB0EC4 /* homeBrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homeBrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		816521951DC7BA7500CB0EC4 /* homeBrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeBrainUITests.swift; sourceTree = "<group>"; };
 		816521971DC7BA7500CB0EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816521A81DC7C09E00CB0EC4 /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 				8165217E1DC7BA7500CB0EC4 /* LaunchScreen.storyboard */,
 				816521811DC7BA7500CB0EC4 /* Info.plist */,
 				816521791DC7BA7500CB0EC4 /* homeBrain.xcdatamodeld */,
+				816521A81DC7C09E00CB0EC4 /* utils.swift */,
 			);
 			path = homeBrain;
 			sourceTree = "<group>";
@@ -268,6 +272,7 @@
 				8165217B1DC7BA7500CB0EC4 /* homeBrain.xcdatamodeld in Sources */,
 				816521751DC7BA7500CB0EC4 /* ViewController.swift in Sources */,
 				816521731DC7BA7500CB0EC4 /* AppDelegate.swift in Sources */,
+				816521A91DC7C09E00CB0EC4 /* utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8165218B1DC7BA7500CB0EC4 /* homeBrainTests.swift in Sources */,
+				816521AA1DC7C19D00CB0EC4 /* utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
